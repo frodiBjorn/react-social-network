@@ -1,0 +1,23 @@
+.item{
+    border-radius: 10px;
+    padding: 1rem;
+    border: 4px solid #69289f;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.message{
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+.item img{
+    width: 50px;
+}
+.like {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.like img{
+    width: 100%;
+}

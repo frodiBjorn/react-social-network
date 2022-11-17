@@ -1,0 +1,14 @@
+.content {
+    grid-area: c;
+    background-color: #fff;
+    font-size: 1.2rem;
+}
+.wallpaper{
+    height: 200px;
+}
+.wallpaper img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+

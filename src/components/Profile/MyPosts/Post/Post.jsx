@@ -10,11 +10,11 @@ const Post = (props) => {
                 alt="userlogo"
             />
             <div className={style.message}>{props.message}</div>
-            <div>
-                <div className={style.like}>
+            <div className={style.like}>
+                <div className={style.likeImage}>
                     <img src={like} alt="like" />
-
                 </div>
+                <div className={style.likesCount}>{props.likesCount}</div>
             </div>
         </div>
     );

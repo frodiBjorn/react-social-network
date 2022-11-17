@@ -1,16 +1,18 @@
 .nav {
-  padding: 0 1rem;
+    padding: 0 1rem;
     color: #fff;
     grid-area: n;
     background: #69289f;
 }
-.item {
+.link {
     font-size: 1.6rem;
     font-weight: 700;
     padding: 1rem 0;
     text-shadow: 0px 4px 11px #000000;
-
 }
-.item.active{
-  color: #fce309;
+.item {
+    color: #fff;
+}
+.active {
+    color: gold;
 }

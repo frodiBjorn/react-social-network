@@ -6,7 +6,7 @@ import wallpaper from '../../assets/wallpaper2.jpg'
 
 const Profile = () => {
     return (
-        <div className={style.content}>
+        <div>
             <div>
                 <div className={style.wallpaper}>
                     <img
